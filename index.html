@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./results-summary-component-main/assets/images/favicon-32x32.png">
+  
+  <title>
+    Frontend Mentor | Results summary component</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+  <main class="main">
+    <section class="left-content">
+      <p class="result">
+        Your Result
+      </p>
+      
+      <div class="circle">
+        <h1 id="bigNr">
+          
+        </h1>
+        <p class="total">
+          of 100
+        </p>  
+      </div>
+      
+      <h2 class="comment">
+        Great
+      </h2>
+      <p class="info">
+        You scored higher than 65% of the people who have taken these tests.
+      </p>
+      
+    </section>
+
+    <section class="right-content">
+      <strong>
+        Summary
+      </strong>
+
+      <ul>
+        <li>
+          <span class="left">
+            <img src="./results-summary-component-main/assets/images/icon-reaction.svg" alt="icon-reaction">
+            Reaction
+          </span>
+          <span class="right">
+            <strong id="reaction"></strong> / 100
+          </span>    
+        </li>
+        <li>
+          <span class="left">
+            <img src="./results-summary-component-main/assets/images/icon-memory.svg" alt="icon-memory">
+            Memory
+          </span>
+          <span class="right">
+           <strong id="memory"></strong> / 100 
+          </span>   
+        </li>
+        <li>
+          <span class="left">
+            <img src="./results-summary-component-main/assets/images/icon-verbal.svg" alt="icon-verbal">
+            Verbal
+          </span>
+          <span class="right">
+            <strong id="verbal"></strong> / 100
+          </span>
+        </li>
+        <li>
+          <span class="left">
+            <img src="./results-summary-component-main/assets/images/icon-visual.svg" alt="icon-visual">
+            Visual
+          </span>
+          <span class="right">
+            <strong id="visual"></strong> / 100
+          </span>
+        </li>
+      </ul>
+
+      <div class="buttons">
+        <button onclick="next()">
+          Continue
+        </button>
+        <button onclick="results()">
+          See Results
+        </button>  
+      </div>
+    </section>    
+  
+  </main>  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Zondi Maqina</a>.
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
